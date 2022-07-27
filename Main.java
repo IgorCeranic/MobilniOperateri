@@ -153,33 +153,33 @@ public class Main {
 
 //********************************************************************************************************
 
-//        System.out.println(ppk1.getTarifniPaket());
-//        ppk1.dodajTarifniDodatak(tarifniDodatak1);
-//        ppk1.obaviRazgovor(ppk1,136);
-//        System.out.println(ppk1.getTarifniPaket().getMinuti());
-//        ppk1.obaviRazgovor(ppk1,54);
-//        ppk1.dodajTarifniDodatak(tarifniDodatak2);
-//        System.out.println(ppk1.getTarifniPaket().getMinuti());
-//        ppk1.obaviRazgovor(ppk1,320);
-//        System.out.println(ppk1.getTarifniPaket().getMinuti());
-//        System.out.println(ppk1.generisiRacun());
-//        System.out.println(ppk1.ukupnoZaNaplatu());
+        System.out.println(ppk1.getTarifniPaket());
+        ppk1.dodajTarifniDodatak(tarifniDodatak1);
+        ppk1.obaviRazgovor(ppk1,136);
+        System.out.println(ppk1.getTarifniPaket().getMinuti());
+        ppk1.obaviRazgovor(ppk1,54);
+        ppk1.dodajTarifniDodatak(tarifniDodatak2);
+        System.out.println(ppk1.getTarifniPaket().getMinuti());
+        ppk1.obaviRazgovor(ppk1,320);
+        System.out.println(ppk1.getTarifniPaket().getMinuti());
+        System.out.println(ppk1.generisiRacun());
+        System.out.println(ppk1.ukupnoZaNaplatu());
 
-        //ppk1.dodajTarifniDodatak(tarifniDodatak2);
-//        ppk1.posaljiPoruku(ppk1,"asdas");
-//        System.out.println(ppk1.getTarifniPaket());
-//        ppk1.posaljiPoruku(ppk1,"dasd");
-//        ppk1.posaljiPoruku(ppk1,"sdsfdg");
-//        System.out.println(ppk1.getTarifniPaket());
-//        ppk1.dodajTarifniDodatak(tarifniDodatak2);
-//
+        ppk1.dodajTarifniDodatak(tarifniDodatak2);
+        ppk1.posaljiPoruku(ppk1,"asdas");
+        System.out.println(ppk1.getTarifniPaket());
+        ppk1.posaljiPoruku(ppk1,"dasd");
+        ppk1.posaljiPoruku(ppk1,"sdsfdg");
+        System.out.println(ppk1.getTarifniPaket());
+        ppk1.dodajTarifniDodatak(tarifniDodatak2);
+
 //        for(int i = 0;i<1010;i++){
 //            ppk1.posaljiPoruku(ppk1,"asdwfrw");
 //        }
 //        ppk1.dodajTarifniDodatak(tarifniDodatak1);
 //        System.out.println(ppk1.generisiRacun());
 
-//
+
         ppk1.dodajTarifniDodatak(tarifniDodatak1);
         ppk1.surfujNaInternetu("google.com",213);
         System.out.println(ppk1.getTarifniPaket());
